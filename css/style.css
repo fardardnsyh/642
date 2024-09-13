@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nanum+Gothic:wght@800&family=Poppins:wght@500&family=Ubuntu&family=Viga&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.arrow-left {
+    position: absolute;
+    margin-left: -10em;
+    top: 920px;
+    height: 200px;
+}
+.arrow-right {
+    position: absolute;
+    margin-left: 25em;
+    top: 500px;
+    height: 200px;
+}
+.info-left {
+    color: #363636;
+    border-left: 3px solid #3b3b3b;
+}
+.info-right {
+    color: #363636;
+    border-right: 3px solid #3b3b3b;
+}
+.image {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 50px;
+}
+.content .header-content {
+    display: flex;
+    justify-content: space-between;
+}
+.content .header-content img{
+    height: 10rem;
+    padding: 5px;
+}
+.content .header-content h1 {
+    padding: 20px 50px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'viga',sans-serif;
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: black;
+}
+.content .header-content h1 span {
+    color: red;
+}
+.content .main-content {
+    margin: 20px 180px 0 180px;
+    font-family: 'poppins', sans-serif;
+}
+.content .main-content h1 {
+    font-size: 35px;
+    text-align: center;
+}
+.content .main-content h2 {
+    padding: 10px 0 10px 20px;
+}
+.content .main-content .proklamasi img {
+    float: left;
+    padding: 20px;
+    height: 350px;
+    border-radius: 50px;
+}
+.content .main-content p {
+    padding: 20px;
+    font-size: 17px;
+    text-align: justify;
+}
+.content .main-content .hiroshima {
+    margin-top: 70px;
+}
+.content .main-content .hiroshima img {
+    float: right;
+    padding: 20px;
+    height: 350px;
+    border-radius: 50px;
+}
+.peristiwa {
+    display: grid;
+    margin: 30px 0;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+}
+.peristiwa img {
+    height: 200px;
+    width: 400px;
+    border-radius: 50px;
+}
